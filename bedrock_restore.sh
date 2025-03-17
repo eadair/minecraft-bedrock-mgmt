@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -e
+
 # Configuration
 BACKUP_FILE=""
 WORLD_DIR=""
