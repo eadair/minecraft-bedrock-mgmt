@@ -2,7 +2,7 @@
 ### Backup, restore, and update Minecraft Bedrock server for Linux
 
 __Instructions:__
-Place the scripts in the Bedrock server directory and run through the shell or scheduled with `crontab -e`.
+Place the scripts in the Bedrock server directory and run through the shell or scheduled with `crontab`.
 
 ## [bedrock-backup.sh](https://github.com/eadair/minecraft-bedrock-mgmt/blob/main/bedrock_backup.sh)
 Backup specified Minecraft world with customizable retention policy and notification to Minecraft players.
