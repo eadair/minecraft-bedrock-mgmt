@@ -20,7 +20,8 @@ Parameters:
  -s  <Screen name>
  -hr <Hours of hourly backups to retain>   (Optional parameter.  Default: 24)
  -dr <Days of daily backups to retain>     (Optional parameter.  Default: 7)
- -wr <Weeks of weekly backups to retain>   (Optional parameter.  Default: 8)
+ -wr <Weeks of weekly backups to retain>   (Optional parameter.  Default: 4)
+ -wd <Day of the week to retain weekly>    (Optional parameter.  Default: Sunday)  
 ```
 
 Example backup scheduling with `crontab -e`:
